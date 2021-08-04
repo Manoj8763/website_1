@@ -1,5 +1,8 @@
 body {
-  background-color: #C4FFDD;
+  background-color: #2E112D;
+}
+table{
+  color:#C2BE53;
 }
 
 h1 {
@@ -7,16 +10,23 @@ h1 {
 }
 
 h3 {
-  color: #892C41;
+  color: #107A8B;
 }
 
+.Name {
+  color: #D35D6E;
+}
+
+.p {
+  color: #39A6A3;
+}
 
 hr {
   /* background-color: white; */
   border-style: none;
   border-top-style: dotted;
   border-width: 5px;
-  border-color: grey;
+  border-color: blue;
   /* height: 0px; */
   width: 5%;
 }
