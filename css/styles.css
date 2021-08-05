@@ -1,22 +1,27 @@
 body {
+  margin: auto;
+  display: inline-block;
+  background-position: center;
   background-color: #020404;
 }
 
+/* button:hover, button {
+  color: #8b0000;
+  background-color: #D87CA1;
+} */
 .FE {
   color: #957681;
 }
 
 a {
   color: #f3f5f4f2;
-}
-
-a:link {
   text-decoration: none;
-  display: inline-block;
+  /* display: inline-block; */
 }
 
 a:hover {
-  color: cyan;
+  color: #D6EC8C;
+  font-size: 110%;
 }
 
 /* a:visited {
@@ -40,8 +45,22 @@ a:hover {
   border-radius: 20px;
 }
 
-.eight:link {
+.eight:hover {
   color: #A03C78;
+}
+
+.Instagram:hover {
+  color: #fb3958;
+  text-align: center;
+}
+
+.Linkedin:hover {
+  color: #0e76a8;
+  text-align: center;
+}
+
+.Twitter:hover {
+  color: #1DA1F2;
 }
 
 .La {
@@ -64,12 +83,25 @@ h1 {
   color: #b0c560;
 }
 
+.contact {
+  color: #60a2c5;
+}
+
 h3 {
   color: #107A8B;
 }
 
 .Name {
   color: #D35D6E;
+}
+
+.submit {
+  background-color: lightblue;
+  color: black;
+}
+
+.submit:hover {
+  font-size: 90%;
 }
 
 .p {
